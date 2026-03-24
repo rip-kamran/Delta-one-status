@@ -45,4 +45,4 @@ if (!token) {
   process.exit(1);
 }
 
-client.login(token);
+client.login(process.env.TOKEN);
